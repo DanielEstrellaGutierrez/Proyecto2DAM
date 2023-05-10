@@ -28,7 +28,10 @@ public class Planta1
 	for (int x = 0; x < 5; x++) {
 	    for (int y = 0; y < 5; y++) {
 	        casillas[x][y] = new Casilla(suelo,x, y);
-	        
+	        if(x == 0 || x == 4)
+                {
+                    casillas[x][y] = new Casilla(pared,x, y);
+                }
 	    }
 		}
 
