@@ -31,7 +31,8 @@ public class Planta1
 	        if(x == 0 || x == 4)
                 {
                     casillas[x][y] = new Casilla(pared,x, y);
-                    //Prueba
+                    //Prueba 2
+                    System.out.println("Prueba");
                 }
 	    }
 		}
