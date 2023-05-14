@@ -33,7 +33,7 @@ public class Planta1
                     casillas[x][y] = new Casilla(pared,x, y);
                     //Prueba 4
                     System.out.println("Prueba 4");
-                    System.out.println("Prueba 4");
+                    
                 }
 	    }
 		}
